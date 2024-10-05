@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.6rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 17px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  font-family: sans-serif;
+  margin-top: 8rem;
+}
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FEF2BF;
+}
+
+@media screen and (max-width: 480px) {
+  /* samrt phones */
+  #level-title{
+    margin-top: 5rem;
+    font-size: 1.7rem;
+  }
+  .btn {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+  }
+  .container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    left: -20px;
+    top: 150px;
+  }
+
+  footer{
+    margin-top: 25rem;
+  }
+  a{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 968px) {
+/* styles for tablets/iPads */  
+#level-title{
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.btn {
+  margin: 14px;
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+}
+.container{
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  left: -25px;
+  top: 150px;
+}
+footer{
+  margin-top: 17rem;
+}  
+a{
+  font-size: 1.2rem;
+}
+}
